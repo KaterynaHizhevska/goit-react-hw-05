@@ -8,7 +8,7 @@ const activeNavLink = ({ isActive }) => {
 
 function Navigation() {
   return (
-      <div>
+      <div className={s.container}>
           <nav className={s.nav}>
               <NavLink to="/" className={activeNavLink}>
                   Home

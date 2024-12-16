@@ -1,0 +1,29 @@
+.active {
+text-decoration: underline;
+color: azure;
+    font-weight: bold;
+}
+
+.link {
+text-decoration: none;
+color: azure;
+    font-size: 24px;
+}
+
+.link.active:hover {
+    color: rgb(16, 207, 207);
+}
+
+.nav {
+display: flex;
+    gap: 24px;
+}
+
+.container {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px;
+        background-color: #040f27;
+        box-shadow: none;
+}
