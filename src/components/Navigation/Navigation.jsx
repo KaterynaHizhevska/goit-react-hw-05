@@ -13,7 +13,7 @@ function Navigation() {
               <NavLink to="/" className={activeNavLink}>
                   Home
               </NavLink>
-              <NavLink>
+              <NavLink to="" className={activeNavLink}>
                   Movies
               </NavLink>
           </nav>
