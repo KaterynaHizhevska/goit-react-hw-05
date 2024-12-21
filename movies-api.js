@@ -28,7 +28,7 @@ export const getMovieCast = async (id) => {
     return response.data;
 }
 
-export const MovieQuery = async (query) => {
+export const getMovieQuery = async (query) => {
     const response = await axios.get(`${url}search/movie?query=${query}`, options);
     return response;
 }
