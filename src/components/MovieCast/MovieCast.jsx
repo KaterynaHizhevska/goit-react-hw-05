@@ -20,11 +20,11 @@ const MovieCast = () => {
         <div>
             <ul className={s.list}>
                 {movieCast.map((actor) => {
-                    const { id, name, profilepath } = actor;
-                    if (profilepath) {
+                    const { id, name, profile_path } = actor;
+                    if (profile_path) {
                         return (
                         <li className={s.item} key={id}>
-                            <img className={s.image} src={`https://image.tmdb.org/t/p/w500${profilepath}`} alt={name} />
+                            <img className={s.image} src={`https://image.tmdb.org/t/p/w500${profile_path}`} alt={name} />
                                 <p>{name}</p>
                             </li>
                         )

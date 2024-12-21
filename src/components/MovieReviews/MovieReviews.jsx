@@ -10,7 +10,7 @@ const MovieReviews = () => {
     useEffect(() => {
         const getData = async () => {
             const response = await getMovieReviews(movieId);
-            setMovieReviews(response.cast);
+            setMovieReviews(response.results);
         }
         getData();
     }, [movieId]);

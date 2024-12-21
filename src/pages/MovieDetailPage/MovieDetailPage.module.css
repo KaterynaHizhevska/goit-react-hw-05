@@ -1,0 +1,99 @@
+
+
+.case {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.goBack {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.goBack:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-top: 10px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #007BFF;
+    border: 1px solid #ccc;
+}
+
+.list li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.list li:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.list li:hover a {
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 40px;
+}
+

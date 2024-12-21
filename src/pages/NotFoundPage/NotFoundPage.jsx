@@ -1,6 +1,6 @@
 function NotFoundPage() {
   return (
-    <div><h2>Щось пішло не так... Сторінки не існує!</h2></div>
+    <div><h2>Something went wrong... The pages dont exist!</h2></div>
   )
 }
 
